@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgtound_png"
+    tools:context=".EmergencyContact">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="2dp"        >
+
+        <TextView
+            android:id="@+id/topText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="25dp"
+            android:textStyle="bold"
+            android:text="Your trusted Relatives.\nWho cares for you."
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_margin="5dp"
+            >
+
+            <TextView
+                android:id="@+id/textView_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="70dp"
+                android:text="Emergency Contact 1"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:id="@+id/txt_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                />
+
+            <EditText
+                android:id="@+id/userPhone1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Enter 1st Phone number !"
+                android:inputType="phone"
+                android:drawableEnd="@drawable/baseline_contact_phone_24"
+                android:onClick="SelectContact1"
+                android:padding="15dp" />
+
+            <TextView
+                android:id="@+id/textView_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="15dp"
+                android:text="Emergency Contact 2"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/userPhone2"
+                app:layout_constraintTop_toBottomOf="@+id/userPhone1" />
+
+            <TextView
+                android:id="@+id/txt_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                />
+            <EditText
+                android:id="@+id/userPhone2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="35dp"
+                android:onClick="SelectContact2"
+                android:background="@drawable/edittext_background"
+                android:hint="Enter 2nd Phone number !"
+                android:drawableEnd="@drawable/baseline_contact_phone_24"
+                android:inputType="phone"
+                android:padding="15dp"
+                />
+
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:text="Submit"
+                android:layout_marginTop="12dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+

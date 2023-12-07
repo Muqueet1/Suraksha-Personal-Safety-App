@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".Intro.Fragment3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rotation="-15"
+            android:src="@drawable/smsg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trusted Contact"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/slide_title"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="Add your trusted contacts for your help"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/slide_desc"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</FrameLayout>

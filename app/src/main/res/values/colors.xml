@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="colorAccent">#ffcaff</color>
+
+    <color name="homeback">#007099</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#EC407A</color>
+    <color name="dot_dark_screen2">#EC407A</color>
+    <color name="dot_dark_screen3">#EC407A</color>
+    <color name="dot_dark_screen4">#EC407A</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#BA68C8</color>
+    <color name="dot_light_screen2">#BA68C8</color>
+    <color name="dot_light_screen3">#BA68C8</color>
+    <color name="dot_light_screen4">#BA68C8</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#ffcaff</color>
+    <color name="bg_screen2">#ffb1ff</color>
+    <color name="bg_screen3">#ff97ff</color>
+    <color name="bg_screen4">#ffe4ff</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+
+    <color name="progress_bar_second">#FF0000</color>
+    <color name="progress_bar_runing">#FF4081</color>
+
+    <color name="appintro_statusbar_color">#22000000</color>
+    <color name="appintro_background_color">#222222</color>
+    <color name="appintro_title_color">#FFFFFF</color>
+    <color name="appintro_desc_color">#FFFFFF</color>
+    <color name="appintro_separator_color">#22000000</color>
+    <color name="appintro_bar_color">@android:color/transparent</color>
+    <color name="appintro_default_fab_background_color">#59000000</color>
+    <color name="appintro_icon_tint">#FFFFFF</color>
+    <color name="appintro_default_unselected_color">#22000000</color>
+    <color name="appintro_default_selected_color">#FFFFFF</color>
+    <color name="appintro_navbar_color">#000000</color>
+    <color name="appintro_ripple_color">#1FFFFFFF</color>
+
+
+    <!-- pinks -->
+    <color name="md_pink_50">#FCE4EC</color>
+    <color name="md_pink_100">#F8BBD0</color>
+    <color name="md_pink_200">#F48FB1</color>
+    <color name="md_pink_300">#F06292</color>
+    <color name="md_pink_400">#EC407A</color>
+    <color name="md_pink_500">#E91E63</color>
+    <color name="md_pink_600">#D81B60</color>
+    <color name="md_pink_700">#C2185B</color>
+    <color name="md_pink_800">#AD1457</color>
+    <color name="md_pink_900">#880E4F</color>
+    <color name="md_pink_A100">#FF80AB</color>
+    <color name="md_pink_A200">#FF4081</color>
+    <color name="md_pink_A400">#F50057</color>
+    <color name="md_pink_A700">#C51162</color>
+
+    <!-- purples -->
+    <color name="md_purple_50">#F3E5F5</color>
+    <color name="md_purple_100">#E1BEE7</color>
+    <color name="md_purple_200">#CE93D8</color>
+    <color name="md_purple_300">#BA68C8</color>
+    <color name="md_purple_400">#AB47BC</color>
+    <color name="md_purple_500">#9C27B0</color>
+    <color name="md_purple_600">#8E24AA</color>
+    <color name="md_purple_700">#7B1FA2</color>
+    <color name="md_purple_800">#6A1B9A</color>
+    <color name="md_purple_900">#4A148C</color>
+    <color name="md_purple_A100">#EA80FC</color>
+    <color name="md_purple_A200">#E040FB</color>
+    <color name="md_purple_A400">#D500F9</color>
+    <color name="md_purple_A700">#AA00FF</color>
+
+    <!-- green -->
+    <color name="md_green_50">#E8F5E9</color>
+    <color name="md_green_100">#C8E6C9</color>
+    <color name="md_green_200">#A5D6A7</color>
+    <color name="md_green_300">#81C784</color>
+    <color name="md_green_400">#66BB6A</color>
+    <color name="md_green_500">#4CAF50</color>
+    <color name="md_green_600">#43A047</color>
+    <color name="md_green_700">#388E3C</color>
+    <color name="md_green_800">#2E7D32</color>
+    <color name="md_green_900">#1B5E20</color>
+    <color name="md_green_A100">#B9F6CA</color>
+    <color name="md_green_A200">#69F0AE</color>
+    <color name="md_green_A400">#00E676</color>
+    <color name="md_green_A700">#00C853</color>
+
+</resources>

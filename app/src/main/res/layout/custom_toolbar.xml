@@ -1,0 +1,38 @@
+<!-- custom_toolbar.xml -->
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_custom_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary">
+
+    <!-- Customize the contents of your toolbar as needed -->
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suraksha"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <!-- Logoff Button -->
+    <ImageButton
+        android:id="@+id/btnLogoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/baseline_logout_24" />
+
+    <!-- Share Button -->
+    <ImageButton
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/baseline_share_24" />
+</androidx.appcompat.widget.Toolbar>

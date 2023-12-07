@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "191809638196",
+    "project_id": "suraksha-a54c0",
+    "storage_bucket": "suraksha-a54c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191809638196:android:9417798b0e6ff2b91e1f61",
+        "android_client_info": {
+          "package_name": "com.mr.suraksha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbSuHIxLTVSeHc_37oa_WvOxErtHaYD1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
